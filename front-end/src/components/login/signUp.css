@@ -1,0 +1,189 @@
+.signUpForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.signUpForm span {
+    color: red;
+    padding: 5px;
+    font-size: small;
+    margin-top: -10px;
+}
+
+.signUpForm input {
+    font-size: medium;
+    margin: 1rem 0rem;
+    padding: 0.5rem 0.2rem;
+    /* border: 0; */
+    border-radius: 5px;
+
+}
+
+.signUpForm select {
+    margin: 5px 0px;
+    padding: 0.6rem 0.5rem;
+}
+
+.signUpForm option {
+    font-size: 15px;
+}
+
+.signUpForm input {
+    /* background-color: transparent; */
+    border: 0;
+    padding: 5;
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 900px) {
+    .changepwdContainer {
+        overflow: hidden;
+        height: 100%;
+        display: flex;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .changepwdContainer .img-container {
+        width: 50%;
+        height: 100%;
+        padding: 0px;
+        margin-left: 0px;
+    }
+
+    .changepwdContainer .rootContainer {
+        display: flex;
+        width: 50%;
+        background-color: #1e1e1e;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .changepwdContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #1e1e1e;
+    }
+
+    .changepwdContainer .img-container {
+        display: none;
+    }
+
+    .changepwdContainer .rootContainer {
+        display: flex;
+        min-width: fit-content;
+        /* width: 50%; */
+        background-color: #1e1e1e;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+.changepwdContainer .rootContainer .errorContainer input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px black inset;
+}
+
+.changepwdContainer .loginImg {
+    border-radius: 0px;
+}
+
+.changepwdContainer .rootContainer {
+    display: flex;
+    width: 50%;
+    background-color: #1e1e1e;
+    align-items: center;
+    justify-items: center;
+}
+
+.rootContainer .cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.headerTag {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.headerTag h2 {
+    color: white;
+}
+
+.cardContainer span {
+    color: red;
+    font-size: 0.8rem;
+    padding-left: 5px;
+}
+
+/* .cardContainer input:focus {
+    outline: none;
+    color: white;
+}
+
+.cardContainer .inputContainer {
+    display: flex;
+    align-self: center;
+    padding: 0.6rem;
+    border: 1px solid white;
+    border-radius: 10px;
+} */
+
+.inputContainer .icon {
+    color: white;
+    align-self: center;
+    font-size: 20px;
+    padding: 2px 0px;
+    padding-right: 5px;
+}
+
+.inputContainer input {
+    background-color: transparent;
+    border: 0;
+    padding: 5;
+    color: white;
+    width: 100%;
+    font-size: 1rem;
+}
+
+
+.cardContainer .errorContainer {
+    margin: 20px 0px;
+}
+
+.changepwdContainer.button-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.changepwdContainer .button-container button {
+    color: white;
+    background-color: green;
+    border: 0;
+    border-radius: 15px;
+    padding: 15px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.changepwdContainer .backto {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.changepwdContainer .backto p {
+    font-size: 0.8rem;
+    color: #3377DC;
+    cursor: pointer;
+    text-decoration: underline;
+}
